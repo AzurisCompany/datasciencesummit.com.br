@@ -1,0 +1,2589 @@
+
+
+
+
+/*
+  Template Name: FrontUp - Conference & Event Landing Page Template
+  Theme URL: https://themeforest.net/user/dsathemes
+  Description: FrontUp - Conference & Event Landing Page Template
+  Author: DSAThemes
+  Author URL: https://themeforest.net/user/dsathemes
+  Version: 1.0.0
+  Website: www.dsathemes.com
+  Tags: Responsive, HTML5 template, DSAThemes, Conference, One Page, Landing, Event, Meeting
+*/
+
+
+
+
+/* ==========================================================================
+   01. GENERAL & BASIC STYLES
+   ========================================================================== */
+
+html {
+	-webkit-font-smoothing: antialiased;
+} 
+ 
+body {
+	font-family: 'Muli', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+	color: #333;
+	font-size: 16px; 
+	line-height: 24px;
+	font-weight: 400;	
+}
+
+/*------------------------------------------------------------------*/
+/*   IE10 in Windows 8 and Windows Phone 8 Bug fix
+/*-----------------------------------------------------------------*/
+
+@-webkit-viewport { width: device-width; }
+@-moz-viewport { width: device-width; }
+@-ms-viewport { width: device-width; }
+@-o-viewport { width: device-width; }
+@viewport { width: device-width; }
+
+/*------------------------------------------*/
+/*	PAGE CONTENT
+/*------------------------------------------*/
+
+.page-content, section { overflow: hidden; } 
+
+/*------------------------------------------*/
+/*	SPACING & ALIGNMENT FOR DEMOS
+/*------------------------------------------*/
+
+.wide-140 { padding-top: 140px; padding-bottom: 140px; }
+.wide-130 { padding-top: 130px; padding-bottom: 130px; }
+.wide-120 { padding-top: 120px; padding-bottom: 120px; }
+.wide-110 { padding-top: 110px; padding-bottom: 110px; }
+.wide-100 { padding-top: 100px; padding-bottom: 100px; }
+.wide-90 { padding-top: 100px; padding-bottom: 90px; }
+.wide-80 { padding-top: 100px; padding-bottom: 80px; }
+.wide-70 { padding-top: 100px; padding-bottom: 70px; }
+.wide-60 { padding-top: 100px; padding-bottom: 60px; }
+.wide-50 { padding-top: 100px; padding-bottom: 50px; }
+.wide-40 { padding-top: 100px; padding-bottom: 40px; }
+.wide-30 { padding-top: 100px; padding-bottom: 30px; }
+
+/*------------------------------------------*/
+/*    Margin Top
+/*------------------------------------------*/
+
+.m-top-120 { margin-top: 120px; }
+.m-top-110 { margin-top: 110px; }
+.m-top-100 { margin-top: 100px; }
+.m-top-90 { margin-top: 90px; }
+.m-top-80 { margin-top: 80px; }
+.m-top-70 { margin-top: 70px; }
+.m-top-60 { margin-top: 60px; }
+.m-top-50 { margin-top: 50px; }
+.m-top-40 { margin-top: 40px; }
+.m-top-35 { margin-top: 35px; }
+.m-top-30 { margin-top: 30px; }
+.m-top-25 { margin-top: 25px; }
+.m-top-20 { margin-top: 20px; }
+.m-top-15 { margin-top: 15px; }
+.m-top-10 { margin-top: 10px; }
+.m-top-5 { margin-top: 5px; }
+
+/*------------------------------------------*/
+/*    Margin Bottom
+/*------------------------------------------*/
+
+.m-bottom-120 { margin-bottom: 120px; }
+.m-bottom-110 { margin-bottom: 110px; }
+.m-bottom-100 { margin-bottom: 100px; }
+.m-bottom-90 { margin-bottom: 90px; }
+.m-bottom-80 { margin-bottom: 80px; }
+.m-bottom-70 { margin-bottom: 70px; }
+.m-bottom-60 { margin-bottom: 60px; }
+.m-bottom-50 { margin-bottom: 50px; }
+.m-bottom-40 { margin-bottom: 40px; }
+.m-bottom-35 { margin-bottom: 35px; }
+.m-bottom-30 { margin-bottom: 30px; }
+.m-bottom-25 { margin-bottom: 25px; }
+.m-bottom-20 { margin-bottom: 20px; }
+.m-bottom-15 { margin-bottom: 15px; }
+.m-bottom-10 { margin-bottom: 10px; }
+.m-bottom-5 { margin-bottom: 5px; }
+.m-bottom-0 { margin-bottom: 0; }
+
+/*------------------------------------------*/
+/*    Margin Left
+/*------------------------------------------*/
+
+.m-left-30 { margin-left: 30px; }
+.m-left-25 { margin-left: 25px; }
+.m-left-20 { margin-left: 20px; }
+.m-left-15 { margin-left: 15px; }
+.m-left-10 { margin-left: 10px; }
+.m-left-5 { margin-left: 5px; }
+
+/*------------------------------------------*/
+/*    Margin Right
+/*------------------------------------------*/
+
+.m-right-30 { margin-right: 30px; }
+.m-right-25 { margin-right: 25px; }
+.m-right-20 { margin-right: 20px; }
+.m-right-15 { margin-right: 15px; }
+.m-right-10 { margin-right: 10px; }
+.m-right-5 { margin-right: 5px; }
+
+/*------------------------------------------*/
+/*    Padding Top
+/*------------------------------------------*/
+
+.p-top-100 { padding-top: 100px; }
+.p-top-90 { padding-top: 90px; }
+.p-top-80 { padding-top: 80px; }
+.p-top-70 { padding-top: 70px; }
+.p-top-60 { padding-top: 60px; }
+.p-top-50 { padding-top: 50px; }
+.p-top-40 { padding-top: 40px; }
+.p-top-35 { padding-top: 35px; }
+.p-top-30 { padding-top: 30px; }
+.p-top-25 { padding-top: 25px; }
+.p-top-20 { padding-top: 20px; }
+.p-top-15 { padding-top: 15px; }
+.p-top-10 { padding-top: 10px; }
+
+/*------------------------------------------*/
+/*    Padding Bottom
+/*------------------------------------------*/
+
+.p-bottom-100 { padding-bottom: 100px; }
+.p-bottom-90 { padding-bottom: 90px; }
+.p-bottom-80 { padding-bottom: 80px; }
+.p-bottom-70 { padding-bottom: 70px; }
+.p-bottom-60 { padding-bottom: 60px; }
+.p-bottom-50 { padding-bottom: 50px; }
+.p-bottom-40 { padding-bottom: 40px; }
+.p-bottom-35 { padding-bottom: 35px; }
+.p-bottom-30 { padding-bottom: 30px; }
+.p-bottom-25 { padding-bottom: 25px; }
+.p-bottom-20 { padding-bottom: 20px; }
+.p-bottom-15 { padding-bottom: 15px; }
+.p-bottom-10 { padding-bottom: 10px; }
+.p-bottom-0 { padding-bottom: 0; }
+
+/*------------------------------------------*/
+/*    Padding Left
+/*------------------------------------------*/
+
+.p-left-80 { padding-left: 80px; }
+.p-left-60 { padding-left: 60px; }
+.p-left-45 { padding-left: 45px; }
+.p-left-30 { padding-left: 30px; }
+.p-left-25 { padding-left: 25px; }
+.p-left-20 { padding-left: 20px; }
+.p-left-15 { padding-left: 15px; }
+.p-left-10 { padding-left: 10px; }
+
+/*------------------------------------------*/
+/*    Padding Right
+/*------------------------------------------*/
+
+.p-right-80 { padding-right: 80px; }
+.p-right-60 { padding-right: 60px; }
+.p-right-45 { padding-right: 45px; }
+.p-right-30 { padding-right: 30px; }
+.p-right-25 { padding-right: 25px; }
+.p-right-20 { padding-right: 20px; }
+.p-right-15 { padding-right: 15px; }
+.p-right-10 { padding-right: 10px; }
+
+/*------------------------------------------*/
+/*   BACKGROUND SETTINGS FOR DEMOS
+/*------------------------------------------*/
+
+.bg-scroll {
+	width: 100%;
+	background-attachment: fixed !important;
+	background-repeat: no-repeat;
+	background-position: center center;		
+	background-size: cover;
+}
+
+.bg-fixed {
+	width: 100%;
+	background-repeat: no-repeat;
+	background-position: center center;		
+	background-size: cover;
+}
+
+/*------------------------------------------*/
+/*   Background Colors
+/*------------------------------------------*/
+
+.bg-black { background-color: #1a1a1a; }
+.bg-dark { background-color: #222; }
+.bg-lightgrey { background-color: #f5f5f5; }
+.bg-theme { background-color: #f45432; }
+
+/*------------------------------------------*/
+/*   BORDER SETTINGS FOR DEMOS
+/*------------------------------------------*/
+
+.b-top-grey { border-top: 1px solid #ddd; }
+.b-bottom-grey { border-bottom: 1px solid #ddd; }
+.b-left-grey { border-left: 1px solid #ddd; }
+.b-right-grey { border-right: 1px solid #ddd; }
+
+
+
+
+/* ==========================================================================
+   02. TYPOGRAPHY
+   ========================================================================== */
+   
+/*------------------------------------------*/
+/*	HEADERS
+/*------------------------------------------*/
+
+h1, h2, h3, h4, h5, h6 {
+	color: #222;
+	font-family: 'Poppins', sans-serif;
+	font-weight: 600;
+	margin-top: 0; 
+	margin-bottom: 0;
+}
+
+/* Header H5 */
+
+h5.h5-small {
+	font-size: 13px;
+	line-height: 20px;
+}
+
+h5 {
+	font-size: 15px;
+	line-height: 22px;
+	margin-bottom: 5px;
+}
+
+h5.h5-lg {
+	font-size: 17px;
+	line-height: 25px;
+}
+
+/* Header H4 */
+
+h4.h4-small {
+	font-size: 18px;
+	line-height: 24px;
+	margin-bottom: 5px;
+}
+
+h4 {
+	font-size: 19px;
+	line-height: 27px;
+	margin-bottom: 10px;
+}
+
+h4.h4-lg {
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 500;
+	margin-bottom: 15px;
+} 
+
+h4.h4-huge {
+	font-size: 22px;
+	line-height: 30px;
+}
+
+/* Header H3 */
+
+h3.h3-small {
+	font-size: 28px;
+	line-height: 38px;
+	margin-bottom: 15px;
+}
+
+h3 span {
+	font-weight: 700;
+}
+
+h3 {
+	font-size: 30px;
+	line-height: 38px;
+	letter-spacing: -0.5px;
+	margin-bottom: 20px;
+}
+
+h3.h3-lg {
+	font-size: 34px;
+	line-height: 44px;
+} 
+
+h3.h3-huge {
+	font-size: 38px;
+	line-height: 48px;
+} 
+
+/* Header H2 */
+
+h2.h2-small {
+	font-size: 40px;
+	line-height: 50px;
+}  
+
+h2 {
+	font-size: 44px;
+	line-height: 54px;
+	margin-bottom: 20px;
+}
+
+h2.h2-lg {
+	font-size: 48px;
+	line-height: 58px;
+} 
+
+h2.h2-huge {
+	font-size: 52px;
+	line-height: 62px;
+	letter-spacing: -1px;
+} 
+
+/*------------------------------------------*/
+/*	 PARAGRAPHS
+/*------------------------------------------*/
+
+p.p-small {
+	font-size: 15px; 
+	line-height: 23px;
+}
+
+p {
+	color: #444;
+	font-size: 17px; 
+	line-height: 25px;
+	font-weight: 300;
+}
+
+p.p-lg {
+	font-size: 21px; 
+	line-height: 29px;
+	font-weight: 400;
+}
+
+p.p-huge {
+	font-size: 24px; 
+	line-height: 33px;
+	font-weight: 400;
+}
+
+/*------------------------------------------*/
+/*	 LISTS
+/*------------------------------------------*/
+
+ul {
+	margin: 0;
+	padding: 0;
+	list-style: none;
+}
+
+/*------------------------------------------*/
+/*	 LINK SETTINGS
+/*------------------------------------------*/
+
+a {
+	text-decoration: none;
+	-webkit-transition: all 400ms ease-in-out;
+	-moz-transition: all 400ms ease-in-out;
+	-o-transition: all 400ms ease-in-out;
+	-ms-transition: all 400ms ease-in-out;
+	transition: all 400ms ease-in-out;
+}
+
+a:hover {
+	color: #444;
+	text-decoration: none;
+}
+
+a:focus {
+	outline: none;
+	text-decoration: none;
+}
+
+/*------------------------------------------*/
+/*	 BUTTON SETTINGS
+/*------------------------------------------*/
+
+.btn {
+	background-color: #f45432;
+	color: #fff;
+	font-size: 13px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	border: 2px solid #f45432;
+	padding: 11px 28px;
+	text-transform: uppercase;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;		
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 Button Size
+/*------------------------------------------*/
+
+.btn.btn-small {
+	font-size: 12px;
+	padding: 9px 25px;	
+}
+
+.btn.btn-medium {
+	padding: 12px 35px;	
+}
+
+.btn.btn-lg {
+	font-size: 15px;
+	padding: 14px 35px;	
+}
+
+.btn.btn-huge {
+	font-size: 15px;
+	padding: 15px 42px;	
+}
+
+/*------------------------------------------*/
+/*	 Button Colors
+/*------------------------------------------*/
+
+.btn.btn-tra-white {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;	
+}
+
+.btn.btn-tra-dark {
+	background-color: transparent;
+	border-color: #333;
+	color: #333;	
+}
+
+.btn.btn-black {
+	background-color: #222;
+	border-color: #222;
+}
+
+.btn.btn-yellow {
+	background-color: #ffdb01;
+	border-color: #ffdb01;
+	color: #333;
+}
+
+/*------------------------------------------*/
+/*	 Button Hover
+/*------------------------------------------*/
+
+.btn.dark-hover:hover {
+	background-color: #222;
+	border-color: #222;
+	color: #fff;	
+}
+
+.btn.tra-hover:hover,
+.btn.tra-hover:focus {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;	
+} 
+
+.btn.theme-hover:hover,
+.btn.theme-hover:focus,
+.btn.dark-hover:focus {
+	background-color: #f45432;
+	border-color: #f45432;
+	color: #fff;	
+}
+
+/*------------------------------------------*/
+/*	IMAGE SETTINGS
+/*------------------------------------------*/
+
+.img-responsive {
+	display: inline-block; 
+}
+
+/*------------------------------------------*/
+/*	 SECTION TITLE
+/*------------------------------------------*/
+
+.section-title {
+	position: relative;
+	margin-bottom: 40px;
+}
+
+.section-title h2 {
+	color: #151515;
+	font-size: 40px;
+	line-height: 40px;
+	margin-bottom: 20px;
+	letter-spacing: -1.5px;
+}
+
+.section-title p { 
+	color: #888;
+	font-size: 19px;
+	line-height: 29px;
+	font-weight: 400;
+}
+
+/*------------------------------------------*/
+/*	 TEXT COLORS FOR DEMOS
+/*------------------------------------------*/
+
+.black-color { color: #222; }
+.dark-color { color: #666; }
+.grey-color { color: #888; }
+.red-color { color: #f45432; }
+.theme-color { color: #f45432; }
+
+.white-color,
+.white-color h2, 
+.white-color h3, 
+.white-color h4, 
+.white-color h5, 
+.white-color h6, 
+.white-color p, 
+.white-color a, 
+.white-color i, 
+.white-color span {
+	color: #fff;
+}
+
+
+
+
+/* ==========================================================================
+   03. PRELOAD ANIMATION
+   ========================================================================== */
+
+#loader-wrapper {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+	background-color: #fff;
+}
+
+#loader {
+    display: block;
+    position: relative;
+    left: 50%;
+    top: 50%;
+	width: 90px;
+    height: 90px;
+	margin: -45px 0 0 -45px;
+    border: 3px solid transparent;
+	border-top-color: #333;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: spin 2s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 2s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+#loader:before {
+    content: "";
+    position: absolute;
+    top: 5px;
+    left: 5px;
+    right: 5px;
+    bottom: 5px;
+    border: 3px solid transparent;
+    border-top-color: #444;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: spin 3s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 3s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+#loader:after {
+    content: "";
+    position: absolute;
+    top: 15px;
+    left: 15px;
+    right: 15px;
+    bottom: 15px;
+    border: 3px solid transparent;
+    border-top-color: #555;
+	-webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    border-radius: 50%;
+    -webkit-animation: spin 1.5s linear infinite; /* Chrome, Opera 15+, Safari 5+ */
+    animation: spin 1.5s linear infinite; /* Chrome, Firefox 16+, IE 10+, Opera */
+}
+ 
+@-webkit-keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}
+
+@keyframes spin {
+    0%   {
+        -webkit-transform: rotate(0deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(0deg);  /* IE 9 */
+        transform: rotate(0deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+    100% {
+        -webkit-transform: rotate(360deg);  /* Chrome, Opera 15+, Safari 3.1+ */
+        -ms-transform: rotate(360deg);  /* IE 9 */
+        transform: rotate(360deg);  /* Firefox 16+, IE 10+, Opera */
+    }
+}   
+   
+   
+
+
+   
+   
+/* ===================================================================================
+   04. HEADER & NAVIGATION
+   =================================================================================== */  
+   
+/*------------------------------------------*/
+/*	 LOGO IMAGE    
+/*------------------------------------------*/
+
+.navbar-brand {
+	height: 60px;
+	padding: 10px 15px;
+} 
+
+/*------------------------------------------*/
+/*	 NAVIGATION BAR    
+/*------------------------------------------*/
+
+.header {
+	margin-bottom: 0; 
+}
+
+.navbar {	
+	padding: 20px 0px;
+	margin-bottom: 0;
+	background-color: transparent;
+	box-shadow: 0 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+/*------------------------------------------*/
+/*	 NAVIGATION MENU    
+/*------------------------------------------*/
+
+.navbar-nav > li > a {
+	color: #ccc; 
+	font-size: 12px;
+	line-height: 60px;
+	font-weight: 800;
+	letter-spacing: 0.5px;
+	text-transform: uppercase;
+	display: block;
+	padding: 0 12px;
+}
+
+.scroll .navbar-nav > li > a {
+	color: #333;
+}
+
+/*------------------------------------------*/
+/*	 Header Button
+/*------------------------------------------*/
+
+.navbar-nav > li > a.header-btn {	
+	background-color: #f45432;
+	color: #fff;
+	font-size: 12px;
+	font-weight: 800;
+	line-height: 25px;
+	letter-spacing: 1px;
+	margin-top: 9px;
+	margin-left: 15px;
+	padding: 6px 25px;
+	border: 2px solid #f45432;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.navbar-nav > li > a.header-btn.hea-tra {	
+	background-color: transparent;
+	color: #fff;
+	border-color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Navigation Menu Hover
+/*------------------------------------------*/
+
+.navbar-nav > li > a:hover {
+	color: #fff;
+	background-color: transparent;
+}
+
+.scroll .navbar-nav > li > a:hover {
+	color: #f45432;
+	background-color: transparent;
+}
+
+.navbar-nav > li > a:focus {
+	background-color: transparent;
+}
+
+.navbar-nav > li > a.header-btn:hover {
+	background-color: transparent;
+	border-color: #fff;
+	color: #fff;
+}
+
+.navbar-nav > li > a.header-btn.hea-tra:hover {	
+	background-color: #f45432;
+	color: #fff;
+	border-color: #f45432;
+}
+
+/*------------------------------------------*/
+/*	 Navbar Scroll   
+/*------------------------------------------*/
+
+.navbar.scroll {
+	padding: 0px;
+	background-color: #fff;
+	box-shadow: 0 0 2px rgba(50, 50, 50, 0.4);	
+}
+
+.scroll .navbar-nav > li > a.header-btn {
+	background-color: #f45432;
+	border-color: #f45432;
+	color: #fff;
+}
+
+.scroll .navbar-nav > li > a.header-btn:hover {
+	background-color: #333;
+	border-color: #333;
+	color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Responsive Menu Button    
+/*------------------------------------------*/
+
+.navbar-toggle {
+    position: relative;
+	background-color: transparent;
+    padding: 10px;
+	margin: 11px 30px 11px 0;
+	border: none;
+}
+
+.navbar-toggle {
+	color: #444;
+	border: 2px solid #444;
+}
+
+.navbar-toggle .icon-bar {
+	background-color: #444;
+}
+
+/*------------------------------------------*/
+/*	 Logo Image
+/*------------------------------------------*/
+
+.navbar .logo-white, 
+.navbar .logo-black {
+	display: block;
+}
+
+.navbar .logo-black,
+.navbar.scroll .logo-white {
+	display: none;
+}
+
+.navbar.scroll .logo-black {
+	display: block;
+}
+
+
+
+
+/* ===================================================================================
+   05. HERO 
+   =================================================================================== */  
+
+.hero-txt {
+	position: relative;
+}
+
+/*------------------------------------------*/
+/*	 HERO BACKGROUND IMAGES
+/*------------------------------------------*/
+
+#hero-1 {
+	background-image: url(../images/hero.jpg);	
+}
+
+#hero-2 {
+	background-image: url(../images/hero.jpg);	
+}
+
+#hero-3 {
+	background-image: url(../images/hero.jpg);	
+}
+
+#hero-4 {
+	background-image: url(../images/hero.jpg);	
+}
+
+#hero-5 {
+	background-image: url(../images/hero.jpg);	
+}
+
+#hero-6 {
+	background-image: url(../images/hero.jpg);	
+}
+
+/*------------------------------------------*/
+/*	 SINGLE PAGE HERO
+/*------------------------------------------*/
+
+.page-hero-section {
+	background-image: url(../images/page-hero.jpg);		
+	padding-top: 180px;
+	padding-bottom: 90px;
+}
+
+/*------------------------------------------*/
+/*	 HERO OVERLAY
+/*------------------------------------------*/
+
+#hero-1 .hero-overlay {
+	height: 100%;
+	background-image: -webkit-linear-gradient(top, rgba(83, 45, 95, 0.8), rgba(92, 67, 155, 0.9));
+	background-image: linear-gradient(top, rgba(83, 45, 95, 0.8), rgba(92, 67, 155, 0.9));
+}
+
+#hero-2 .hero-overlay {
+	height: 100%;
+	background-image: -webkit-linear-gradient(bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.5));
+	background-image: linear-gradient(bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.5));
+}
+
+#hero-3 .hero-overlay {
+	height: 100%;
+	background-image: -webkit-linear-gradient(bottom, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.3));
+	background-image: linear-gradient(bottom, rgba(10, 10, 10, 1), rgba(10, 10, 10, 0.3));
+}
+
+#hero-4 .hero-overlay {
+	height: 100%;
+	background-image: -webkit-linear-gradient(bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.5));
+	background-image: linear-gradient(bottom, rgba(10, 10, 10, 0.8), rgba(10, 10, 10, 0.5));
+}
+
+#hero-5 .hero-overlay {
+	height: 100%;
+	background-color: rgba(14, 26, 42, 0.85); 
+}
+
+#hero-6 .hero-overlay {
+	height: 100%; 
+	background-color: rgba(14, 26, 42, 0.3); 
+}
+
+/*------------------------------------------*/
+/*	 HERO CONTENT
+/*------------------------------------------*/
+
+#hero-3 .hero-txt {
+	padding-top: 280px;
+	padding-bottom: 120px;
+}
+
+.hero-row-200 {
+	padding-top: 250px;
+	padding-bottom: 200px;
+}
+
+.hero-row-180 {
+	padding-top: 230px;
+	padding-bottom: 180px;
+}
+
+.hero-row-140 {
+	padding-top: 190px;
+	padding-bottom: 140px;
+}
+
+/*------------------------------------------*/
+/*	 HERO CONTENT
+/*------------------------------------------*/ 
+
+.hero-logo img {
+	margin-bottom: 50px;
+}
+
+#hero-2 img {
+	opacity: 0.7;
+}
+
+.hero-event-data h5 {
+	font-weight: 700;
+	text-transform: uppercase;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	margin-bottom: 15px;
+}
+
+.hero-event-data p.p-hero-medium {
+	display: inline-block;
+	font-weight: 700;
+	padding-bottom: 10px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+}
+
+/*------------------------------------------*/
+/*	 Hero Big Transparent Title
+/*------------------------------------------*/ 
+
+.hero-tra-text {
+	margin-bottom: -140px;
+}
+
+.hero-tra-text h2 {
+	color: rgba(255, 255, 255, 0.12);
+	font-size: 165px;
+	line-height: 165px;
+	font-weight: 700;
+	letter-spacing: -5px;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------*/
+/*	 Hero H3 Header
+/*------------------------------------------*/ 
+
+h3.h3-hero {
+	font-size: 30px;
+	line-height: 40px;
+	margin-bottom: 15px;	
+}
+
+#hero-2 h3.h3-hero,
+#hero-6 h3.h3-hero {
+	margin-bottom: 5px;	
+}
+
+h3.h3-hero-lg {
+	font-size: 55px;
+	line-height: 65px;
+	margin-bottom: 15px;	
+}
+
+/*------------------------------------------*/
+/*	 Hero H2 Header
+/*------------------------------------------*/ 
+
+h2.h2-hero {
+	font-size: 80px;
+	line-height: 90px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+}
+
+h2.h2-hero-lg {
+	font-size: 90px;
+	line-height: 100px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+}
+
+h2.h2-hero-huge {
+	font-size: 100px;
+	line-height: 105px;
+	font-weight: 700;
+	letter-spacing: -2px;
+	text-transform: uppercase;
+}
+
+/*------------------------------------------*/
+/*	 Hero Paragraph
+/*------------------------------------------*/ 
+
+p.p-hero {
+	font-size: 20px;
+	line-height: 30px;
+} 
+
+p.p-hero-medium {
+	font-size: 22px;
+	line-height: 34px;
+} 
+
+p.p-hero-lg {
+	font-size: 24px;
+	line-height: 34px;
+	font-weight: 600;
+} 
+
+p.p-hero-huge {
+	font-size: 28px;
+	line-height: 38px;
+	font-weight: 600;
+} 
+
+/*------------------------------------------*/
+/*	 Hero Paragraph Customization
+/*------------------------------------------*/ 
+
+#hero-1 p.p-hero-huge {
+	font-weight: 300;
+	margin-top: 20px;
+} 
+
+#hero-2 p.p-hero-huge {
+	font-size: 50px;
+	line-height: 50px;
+	font-weight: 800;
+	margin-bottom: 0;
+}
+
+#hero-2 p.p-hero:after {
+    display: block;
+    content: "";
+    height: 1px;
+    width: 100px;
+	background: #f45432;
+    margin: 20px auto 25px;
+    position: relative;
+}
+
+#hero-2 p.p-hero {
+	padding: 0 10%;
+	margin-bottom: 0;
+}
+
+#hero-2 p.p-hero-lg {
+	font-weight: 800;
+	margin-bottom: 3px;
+}
+
+#hero-4 p.p-hero-lg {
+	padding: 0 5%;	
+} 
+
+#hero-4 p.p-hero-huge {
+	font-weight: 600;
+	padding-bottom: 5px;
+	border-bottom: 1px solid rgba(255, 255, 255, 0.35);
+	display: inline-block;
+} 
+
+.page-hero-section p.p-hero {
+	margin-bottom: 5px;
+} 
+
+
+
+/* ===================================================================================
+   06. ABOUT
+   =================================================================================== */
+
+#about .section-title {
+	margin-bottom: 10px;
+}  
+
+/*------------------------------------------*/
+/*	  NEWSLETTER FORM
+/*------------------------------------------*/
+
+#newsletter {
+	padding: 40px 30px 25px;
+	border: 1px solid #e0e0e0;	
+	-webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    border-radius: 8px;
+}
+
+/*------------------------------------------*/
+/*	  Newsletter Form Input
+/*------------------------------------------*/
+
+.newsletter-form .form-control {
+	background-color: #fff;
+	height: 48px;
+	color: #222;
+	font-size: 14px;
+	font-weight: 300;	
+	text-transform: uppercase;
+	border: 1px solid #ddd;	
+	margin-bottom: 12px;	
+	box-shadow: none;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	text-align: center;
+} 
+
+.newsletter-form .form-control::-moz-placeholder { color: #aaa; } 
+.newsletter-form .form-control:-ms-input-placeholder { color: #aaa; }
+.newsletter-form .form-control::-webkit-input-placeholder { color: #aaa; }
+
+/*------------------------------------------*/
+/*	  Newsletter Form Button
+/*------------------------------------------*/
+
+.newsletter-form .btn { 
+	width: 100%;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+}
+
+#newsletter .form-notification {
+	color: #f45432;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-top: 15px;
+}  
+
+/*------------------------------------------*/
+/*	  ABOUT IMAGES
+/*------------------------------------------*/
+
+.about-image {
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 20px;
+}
+
+.a-image {
+	position: relative;
+}
+
+.aimg-text {
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 25px 100px 30px 30px;
+	width: 100%;
+	z-index: 20;
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+}
+
+.aimg-text h4 {
+	margin-bottom: 5px;
+}
+
+.aimg-text p {
+	font-size: 14px ;
+	line-height: 22px;
+	margin-bottom: 0;
+}
+
+
+
+
+/* ===================================================================================
+   07. COUNTDOWN BANNER
+   =================================================================================== */
+
+#countdown {
+	background-image: url(../images/countdown.jpg);	
+}
+
+/*------------------------------------------*/
+/*	 COUNTDOWN ELEMENT
+/*------------------------------------------*/ 
+
+#clock {
+	display: inline-block;
+}
+
+/*------------------------------------------*/
+/*	  Countdown Box
+/*------------------------------------------*/
+
+#clock .cbox {
+	float: left;
+	text-align: center;
+	padding: 5px 30px;
+	border-right: 1px solid rgba(255, 255, 255, 0.5);
+	display: inline-block;
+}
+
+#clock .cbox:last-child {
+	border-right: none;
+}
+
+/*------------------------------------------*/
+/*	  Countdown Digit
+/*------------------------------------------*/
+
+#clock span.cbox-digit {
+	color: #fff;
+	font-size: 65px;
+	line-height: 65px;
+	font-weight: 800;
+	letter-spacing: 1px;
+}
+
+#clock span.cbox-txt {
+	color: #fff;
+	font-size: 13px;
+	line-height: 13px;
+	font-weight: 800;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+	margin-bottom: 0;	
+	display: block;
+	padding-top: 10px;
+}
+
+
+
+
+/* ==========================================================================
+   08. SPEAKERS
+   ========================================================================== */  
+
+.speaker {
+	position: relative;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-bottom: 50px;
+}   
+
+/*------------------------------------------*/
+/*	  Speaker Photo Hover Overlay
+/*------------------------------------------*/
+
+.hover-overlay {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;	
+	background: rgba(10, 10, 10, 0.5);
+}
+
+.hover-overlay > img {
+	transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	overflow: hidden;
+	-webkit-transition: transform 400ms;
+	-moz-transition: transform 400ms;
+	-o-transition: transform 400ms;
+	transition: transform 400ms;
+}
+
+/*------------------------------------------*/
+/*	  Overlay Background 
+/*------------------------------------------*/ 
+
+.item-overlay {
+	opacity: 0;
+	-moz-opacity: 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.5);
+	-moz-transition: opacity 400ms ease-out;
+	-webkit-transition: opacity 400ms ease-out;
+	-o-transition: opacity 400ms ease-out;
+	transition: opacity 400ms ease-out;
+}
+
+/*------------------------------------------*/
+/*	  Image Hover Effect 
+/*------------------------------------------*/ 
+
+.speaker:hover .hover-overlay > img {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+/*------------------------------------------*/
+/*	  Speaker Data
+/*------------------------------------------*/ 
+
+.speaker-img-meta {
+	width: 100%;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	padding: 20px 10px;
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+}
+
+.speaker-img-meta h4 {
+	color: #fff;
+	font-weight: 600;
+	letter-spacing: -0.5px;
+	margin-bottom: 0;
+}
+
+.speaker-img-meta p {
+	color: #ccc;
+	font-size: 15px;
+	line-height: 20px;
+	margin-bottom: 5px;
+}
+
+.speaker-img-meta h5 {
+	color: #fff;
+	margin-bottom: 0;
+}
+
+/*------------------------------------------*/
+/*	  Speaker Twitter Link
+/*------------------------------------------*/ 
+
+.speaker-social {
+	display: inline-block;
+	position: absolute;
+	bottom: 6%;
+	right: 8%;
+	z-index: 100;
+}
+
+.speaker-social a {
+	color: #eee;
+	font-size: 22px;
+	line-height: 22px;
+}
+
+.speaker-social a:hover {
+	color: #00a9ed;
+}
+
+/*------------------------------------------*/
+/*	  Speaker Text
+/*------------------------------------------*/ 
+
+.speaker-text {
+	margin-top: 20px;
+}
+
+.speaker-text p {
+	font-size: 15px;
+	line-height: 25px;
+	margin-bottom: 0;
+}
+
+
+
+
+/* ==========================================================================
+   09. SCHEDULE
+   ========================================================================== */ 
+
+/*------------------------------------------*/
+/*	  SCHEDULE TABS NAV
+/*------------------------------------------*/
+
+.nav-tabs > li > a {
+	background-color: transparent;
+    color: #757575;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 400;
+	padding: 15px 30px;
+	margin-right: 5px;
+	border: 1px solid #ddd;	
+	-webkit-transition: all 250ms ease-in-out;
+	-moz-transition: all 250ms ease-in-out;
+	-o-transition: all 250ms ease-in-out;
+	-ms-transition: all 250ms ease-in-out;
+	transition: all 250ms ease-in-out;	
+} 
+
+.nav-tabs > li > a span {
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	display: block;
+	margin-bottom: 5px;
+}
+
+.nav-tabs > li > a:hover,
+.nav-tabs > li.active > a, 
+.nav-tabs > li.active > a:hover, 
+.nav-tabs > li.active > a:focus {
+	color: #fff;
+	background-color: #f45432;
+	border: 1px solid #f45432;
+}
+
+/*------------------------------------------*/
+/*	 SCHEDULE TABS HOLDER
+/*------------------------------------------*/
+
+.tab-pane h4 {
+	font-weight: 700;
+	letter-spacing: -1px;
+}
+
+.schedule-event { 
+	padding-top: 30px;
+	padding-bottom: 20px;
+	border-bottom: 1px solid #ddd;
+}
+
+/*------------------------------------------*/
+/*	  Session Data
+/*------------------------------------------*/
+
+.session-data {
+	padding-left: 60px;
+}
+
+.session-time {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 800;
+	display: block;
+	margin-bottom: 6px;
+}
+
+/*------------------------------------------*/
+/*	  Speaker Avatar
+/*------------------------------------------*/
+
+.session-speaker {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.session-speaker img {
+	width: 90px;
+	height: 90px;
+	margin-bottom: 12px;
+	-webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;	
+}
+
+.session-speaker h5 {
+	line-height: 15px;
+	margin-bottom: 0;
+}
+
+.session-speaker p {
+	margin-bottom: 0;
+}
+
+/*------------------------------------------*/
+/*	  Session Description
+/*------------------------------------------*/
+
+.session-description {
+	padding-left: 30px;
+	padding-right: 60px;
+}
+
+.session-room {
+	color: #fff;
+	font-size: 12px;
+	line-height: 12px;
+	font-weight: 400;
+	padding: 5px 14px;
+	background-color: #bbb;
+	margin-top: 10px;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+.session-description h5.h5-lg {
+	margin-bottom: 10px;
+}
+
+.session-description a h5.h5-lg:hover {
+	color: #f45432;
+	text-decoration: underline;
+}
+
+.session-description p.session-tags {
+	color: #888;
+	font-size: 16px; 
+	line-height: 16px;
+	font-weight: 600;
+	margin-top: 20px;
+}
+
+
+
+
+/* ==========================================================================
+   10. PRICING BANNER
+   ========================================================================== */  
+
+#pricing-banner {
+	background-image: url(../images/pricing-banner.jpg);
+}
+
+/*------------------------------------------*/
+/*	  Pricing Banner Typography
+/*------------------------------------------*/ 
+
+.pricing-banner p {
+	padding: 0 5%;
+}
+
+
+
+
+/* ==========================================================================
+   11. WORKSHOPS
+   ========================================================================== */ 
+
+/*------------------------------------------*/
+/*	  Workshop Speaker Avatar
+/*------------------------------------------*/ 
+   
+.workshop-avatar {
+	width: 35%;
+	float: left;
+	margin-right: 25px;
+}
+
+/*------------------------------------------*/
+/*	  Workshop Title
+/*------------------------------------------*/ 
+
+.workshop-description a {
+	color: #f45432;
+	font-size: 20px;
+	line-height: 28px;
+	font-weight: 800;
+	display: block;
+	text-decoration: underline;
+	margin-bottom: 15px;
+}
+
+.workshop-description a:hover {
+	color: #222;
+}
+
+/*------------------------------------------*/
+/*	  Workshop Speaker / Date
+/*------------------------------------------*/ 
+
+.workshop-author {
+	color: #222;
+	display: block;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 800;
+	margin-bottom: 5px;
+}
+
+.workshop-date {
+	color: #757575;
+	display: block;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-bottom: 15px;
+}
+
+
+
+
+/* ===================================================================================
+   12. PRICING TABLES
+   =================================================================================== */ 
+
+/*------------------------------------------*/
+/*	 Pricing Table
+/*------------------------------------------*/  
+ 
+.pricing-table {
+	text-align: center;
+	border: 1px solid #ddd;
+	background-color: #fff;
+	padding: 40px 35px;
+	-webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+}
+
+/*------------------------------------------*/
+/*	 Plan Price
+/*------------------------------------------*/ 
+
+.price h4 {
+	letter-spacing: -1px;
+	margin-bottom: 20px;
+}
+ 
+.price span {
+	font-size: 65px;
+	line-height: 65px;
+	font-weight: 800;
+}
+
+.pricing-table .price sup {
+	font-size: 40px;
+	font-weight: 400;
+    top: -10px;
+	margin-right: 5px;
+}
+
+.price span.price-vat {
+	display: block;
+	color: #999;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	margin-top: 10px;
+}
+
+/*------------------------------------------*/
+/*	  Pricing Description
+/*------------------------------------------*/ 
+
+.pricing-text {
+	margin-top: 20px;
+	margin-bottom: 30px;
+	padding-bottom: 25px;
+	border-bottom: 1px solid #ddd;
+}
+
+.pricing-text p {
+	font-size: 15px;
+	line-height: 23px;
+	margin-bottom: 0;
+}
+
+.pricing-table p span {
+	color: #000;
+	font-weight: 800;
+}
+
+/*------------------------------------------*/
+/*	 PRICING DISCOUNT
+/*------------------------------------------*/
+
+.pricing-discount p span {
+	color: #000;
+	font-weight: 800;
+}
+
+/*------------------------------------------*/
+/*	 PRICING TERMS AND CODITIONS 
+/*------------------------------------------*/
+
+ul.terms-list {
+    list-style-type: disc;
+}
+
+ul.terms-list li {
+	color: #666;
+	margin-bottom: 8px;
+}
+
+
+
+
+/* ===================================================================================
+   13. GALLERY
+   =================================================================================== */  
+
+/*------------------------------------------*/
+/*	  GALLERY VIDEO
+/*------------------------------------------*/ 
+
+.video-block {
+	position: relative;
+	width: 100%;
+	height: 100%;
+}
+
+.video-block-wrapper {
+	position: absolute;
+	text-align: center;
+	width: 100%;
+	height: 100%;
+}
+
+.video-description {
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	padding: 50px 30px 30px;	
+}
+
+.video-description span {
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 8px;
+} 
+
+/*------------------------------------------*/
+/*	  Video Link Play Icon
+/*------------------------------------------*/
+
+.play-icon {
+	width: 90px;
+	height: 90px;
+	background: url(../images/play-icon.png);
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-top: -45px;
+	margin-left: -45px;	
+	opacity: 0.75;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out;
+}
+
+.play-icon:hover {
+	opacity: 1;
+}
+
+/*------------------------------------------*/
+/*	  GALLERY CAROUSEL PHOTOS
+/*------------------------------------------*/ 
+
+div.pp_default .pp_description {
+    font-size: 15px;
+    line-height: 15px;
+}
+
+/*------------------------------------------*/
+/*	  Carousel Photo
+/*------------------------------------------*/ 
+
+.carousel-image {
+	position: relative;	
+	padding: 0 5px;
+}
+
+/*------------------------------------------*/
+/*	  Photo Description
+/*------------------------------------------*/
+
+.photo-description {
+	background-image: -webkit-linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	background-image: linear-gradient(bottom, rgba(0, 0, 0, 1), rgba(0, 0, 0, 0.02));
+	position: absolute;
+	bottom: 0;
+	left: 0;
+	z-index: 20;
+	width: 100%;
+	padding: 25px 15px 15px;
+}
+   
+.photo-description span {
+	font-size: 14px;
+	line-height: 14px;
+	font-weight: 400;
+	display: block;
+	margin-bottom: 8px;
+} 
+
+/*------------------------------------------*/
+/*	  Photo Hover Overlay
+/*------------------------------------------*/
+
+.hover-overlay {
+	width: 100%;
+	height: 100%;
+	overflow: hidden;
+	position: relative;	
+	background: rgba(10, 10, 10, 0.75);
+}
+
+.hover-overlay > img {
+	transform: scale(1);
+	-ms-transform: scale(1);
+	-webkit-transform: scale(1);
+	-o-transform: scale(1);
+	-moz-transform: scale(1);
+	overflow: hidden;
+	-webkit-transition: transform 400ms;
+	-moz-transition: transform 400ms;
+	-o-transition: transform 400ms;
+	transition: transform 400ms;
+}
+
+/*------------------------------------------*/
+/*	  Overlay Background 
+/*------------------------------------------*/ 
+
+.item-overlay {
+	opacity: 0;
+	-moz-opacity: 0; 
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: rgba(10, 10, 10, 0.4);
+	-moz-transition: opacity 400ms ease-out;
+	-webkit-transition: opacity 400ms ease-out;
+	-o-transition: opacity 400ms ease-out;
+	transition: opacity 400ms ease-out;
+}
+
+/*------------------------------------------*/
+/*	  Photo Hover Effect 
+/*------------------------------------------*/ 
+
+.hover-overlay:hover > img {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.hover-overlay:hover .item-overlay {
+	opacity: 1; 
+	-moz-opacity: 1; 
+}
+
+
+
+
+/* ==========================================================================
+   14. REGISTER FORM
+   ========================================================================== */   
+   
+#pre-register {
+	background-image: url(../images/register.jpg);
+} 
+
+/*------------------------------------------*/
+/*	  Register Form Typography
+/*------------------------------------------*/
+
+#pre-register p.p-huge {
+	font-weight: 300;
+	margin-bottom: 35px;
+}
+
+#pre-register p.p-huge span {
+	font-weight: 700;
+}
+
+/*------------------------------------------*/
+/*	  Register Form 
+/*------------------------------------------*/
+
+#register-form { 
+	background-color: rgba(221, 221, 221, 0.25); 
+	padding: 20px 5px 10px;
+	margin: 0; 
+}
+
+#input_name, #input_email, #input_ticket { 
+	padding-right: 0;
+}
+
+/*------------------------------------------*/
+/*	  Register Form Input
+/*------------------------------------------*/
+
+#register-form .form-control {
+	height: 52px;
+	font-size: 16px;
+	font-weight: 300;
+	background-color: #fefefe;
+	margin-bottom: 10px;
+	border: 1px solid #ddd;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
+	-webkit-transition: all 300ms ease-in-out;
+	-moz-transition: all 300ms ease-in-out;
+	-o-transition: all 300ms ease-in-out;
+	-ms-transition: all 300ms ease-in-out;
+	transition: all 300ms ease-in-out;
+}
+
+#register-form .form-control::-moz-placeholder { color: #444; } 
+#register-form .form-control:-ms-input-placeholder { color: #444; }
+#register-form .form-control::-webkit-input-placeholder { color: #444; }
+
+/*------------------------------------------*/
+/*	  Register Form Input Focus
+/*------------------------------------------*/
+
+#register-form .form-control:focus {
+	background-color: #eee;	
+    border-color: #eee;	
+	outline: 0px none;
+	box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.075) inset, 0px 0px 0px rgba(0, 0, 0, 0.2);
+}
+
+/*------------------------------------------*/
+/*	 Register Form Submit Button
+/*------------------------------------------*/
+
+#register-form #form_register_btn {
+	padding: 0 15px;
+	margin-bottom: 10px;
+}
+
+#register-form #form_register_btn .btn {
+	width: 100%;
+	display: block;
+	margin-right: 0;
+	-webkit-border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;	
+}
+
+#register-form #form_register_btn .btn:focus {	
+	background-color: #fe4918;
+	color: #fff;
+	border-color:  #fe4918;
+	outline: 0;
+	box-shadow: none;
+}
+
+/*------------------------------------------*/
+/*	  Register Form Message
+/*------------------------------------------*/
+
+.register-form-msg .loading {
+	color: #00c1f0;
+	font-size: 16px;
+	line-height: 16px;
+	font-weight: 300;
+}
+
+.error {
+	color: #fe4918;
+	font-size: 15px;
+	line-height: 18px;
+	font-weight: 600;
+}
+
+
+
+
+/* ==========================================================================
+   15. SPONSORS
+   ========================================================================== */
+
+.sponsor {
+	width: 20%;
+	float: left;
+	padding-right: 10px;
+	margin-bottom: 10px;
+}
+   
+#sponsors h4 {
+	padding-bottom: 10px;
+	margin-bottom: 40px;
+	border-bottom: 1px solid #e0e0e0;
+}
+
+/*------------------------------------------*/
+/*	 Sponsor Logo
+/*------------------------------------------*/ 
+ 
+.s-logo {
+	background-color: rgba(230, 230, 230, 0.3);
+	padding: 35px 15px;
+	-webkit-transition: all 350ms ease-in-out;
+	-moz-transition: all 350ms ease-in-out;
+	-o-transition: all 350ms ease-in-out;
+	-ms-transition: all 350ms ease-in-out;
+	transition: all 350ms ease-in-out
+}
+
+.s-logo:hover {
+	background-color: rgba(230, 230, 230, 0.7);
+}
+
+
+
+
+/* ===================================================================================
+   16. BLOG
+   =================================================================================== */ 
+  
+/*------------------------------------------*/
+/*	  Blog Post Meta 
+/*------------------------------------------*/ 
+ 
+.blog-post-text span {
+	color: #666;
+	font-size: 15px;
+	line-height: 15px;
+	font-weight: 400;
+} 
+   
+/*------------------------------------------*/
+/*	  Blog Post Title 
+/*------------------------------------------*/
+ 
+.blog-post-text a {
+	color: #222;
+	font-size: 20px;
+	line-height: 26px;
+	font-weight: 700;
+	display: block;
+	margin-bottom: 10px;
+	margin-top: 10px;
+}
+
+.blog-post-text a:hover {
+	color: #f45432;
+}
+
+
+
+
+/* ===================================================================================
+   17. CALL TO ACTION
+   =================================================================================== */ 
+
+#call-to-action {
+	background-image: url(../images/call-to-action.jpg);
+}
+
+/*------------------------------------------*/
+/*	  Call To Action Typography 
+/*------------------------------------------*/ 
+
+#call-to-action h2.h2-huge {
+	margin-bottom: 20px;
+}
+
+#call-to-action h4.h4-huge {
+	font-weight: 300;
+	margin-bottom: 15px;
+}
+
+#call-to-action p {
+	padding: 0 5%;
+}
+
+
+
+
+/* ==========================================================================
+   18. VENUE
+   ========================================================================== */ 
+  
+/*------------------------------------------*/
+/*	 VENUE INFO
+/*------------------------------------------*/ 
+ 
+.venue-info h3,
+.hotel-info h3 {
+	letter-spacing: -0.5px;
+}
+ 
+.hotel-info span, 
+.venue-info span {
+	color: #757575;
+	font-size: 18px;
+	line-height: 27px;
+	font-weight: 600;
+	display: block;
+}
+
+p.phone-number {
+	color: #222;
+	font-weight: 800;
+	margin-top: 3px;
+	margin-bottom: 3px;
+}
+
+a.venue-website, 
+a.hotel-website {
+	color: #f45432;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 800;
+	text-decoration: underline;
+	display: block;
+}
+
+a.venue-website:hover {
+	color: #222;
+}
+
+/*------------------------------------------*/
+/*	 GOOGLE MAP
+/*------------------------------------------*/     
+   
+.google-map {
+    position: relative;
+    padding: 0px 0px 40%;
+    height: 0px;
+    overflow: hidden;
+}
+
+.google-map iframe, 
+.google-map object, 
+.google-map embed {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+	border:0;
+}
+
+/*------------------------------------------*/
+/*	 DIRECTION POINT
+/*------------------------------------------*/ 
+
+.d-point h4 {
+	margin-bottom: 20px;
+} 
+
+
+
+
+/* ===================================================================================
+   19. ACCOMMODATIONS
+   =================================================================================== */ 
+
+/*------------------------------------------*/
+/*	 HOTEL SERVICE 
+/*------------------------------------------*/  
+ 
+.service-icon {
+    float: left;
+}
+
+.service-txt {
+    overflow: hidden;
+    padding-left: 7px;
+}
+
+.hotel-service p {
+	margin-bottom: 5px;
+}
+
+/*------------------------------------------*/
+/*	 HOTEL PHOTO 
+/*------------------------------------------*/  
+
+.hotel-photo .btn {
+	width: 100%;
+	margin-top: 25px;
+	margin-bottom: 20px;
+}
+
+p.hotel-photo-notice {
+	color: #666;
+	font-size: 15px;
+	line-height: 23px;
+} 
+
+.hotel-photo p a {
+	color: #f45432;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 800;
+	text-decoration: underline;
+}
+
+.hotel-photo p a:hover {
+	color: #222;
+}
+
+
+
+
+/* ==========================================================================
+   20. SPEAKER SINGLE PAGE
+   ========================================================================== */ 
+   
+/*------------------------------------------*/
+/*	 SPEAKER DATA
+/*------------------------------------------*/    
+   
+.single-speaker-data h3 {
+	letter-spacing: -1px;
+	margin-bottom: 8px;
+}
+
+.single-speaker-data span {
+	display: block;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 300;
+}
+
+/*------------------------------------------*/
+/*	 SPEAKER ABOUT
+/*------------------------------------------*/  
+
+.single-speaker-session h4 {
+	margin-bottom: 20px;
+}
+
+.single-speaker-session span {
+	display: block;
+	font-size: 18px;
+	line-height: 18px;
+	font-weight: 300;
+	margin-bottom: 8px;
+}
+
+a.s-speaker-link {
+	display: block;
+	color: #f45432;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 400;
+	margin-bottom: 10px;
+}
+
+a.s-speaker-link:hover {
+	color: #222;
+	text-decoration: underline;
+}
+
+/*------------------------------------------*/
+/*	 OTHER SPEAKERS LIST
+/*------------------------------------------*/ 
+
+.other-speakers-row {
+	margin-right: -7px;
+	margin-left: -7px;
+}
+
+.o-speaker {
+	padding: 0 8px;
+	margin-bottom: 50px;
+}  
+
+.o-speaker .hover-overlay {
+	margin-bottom: 15px;
+}
+
+.o-speaker a {
+	color: #222;
+	font-size: 17px;
+	line-height: 17px;
+	font-weight: 800;
+} 
+
+.o-speaker-data {
+	margin-top: 5px;
+}
+
+.o-speaker span {
+	color: #757575;
+	font-size: 14px;
+	line-height: 18px;
+	margin-bottom: 3px;
+	display: block;
+}
+
+/*------------------------------------------*/
+/*	  Photo Hover Effect 
+/*------------------------------------------*/ 
+
+.o-speaker:hover .hover-overlay > img {
+	transform: scale(1.2);
+	-ms-transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-o-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+}
+
+.o-speaker:hover .item-overlay {
+	opacity: 1; 
+	-moz-opacity: 1; 
+}
+
+.o-speaker:hover > a {
+	color: #f45432;
+	text-decoration: underline;
+}
+
+
+
+
+/* ==========================================================================
+   21. EVENT DETAILS PAGE
+   ========================================================================== */ 
+
+/*------------------------------------------*/
+/*	 EVENT SINGLE TITLE
+/*------------------------------------------*/    
+
+.event-title h3 {
+	margin-bottom: 25px;
+} 
+
+.event-title p {
+	color: #ccc;
+	font-size: 20px;
+	line-height: 20px;
+	font-weight: 300;
+	margin-bottom: 10px;	
+}    
+   
+/*------------------------------------------*/
+/*	 EVENT SPEAKER
+/*------------------------------------------*/ 
+
+.event-speaker h4.h4-huge {
+	margin-top: 30px; 
+	letter-spacing: -0.5px;
+	margin-bottom: 5px;
+}
+
+p.event-speaker-info {
+	color: #888;
+	font-weight: 400;
+	margin-bottom: 2px;
+}
+
+a.event-speaker-social {
+	color: #f45432;
+	font-size: 17px;
+	line-height: 25px;
+	font-weight: 400;	
+}
+
+a.event-speaker-social:hover {
+	color: #222;
+	text-decoration: underline;	
+}
+ 
+/*------------------------------------------*/
+/*	 EVENT DESCRIPTION
+/*------------------------------------------*/
+ 
+.event-description h3.h3-small {
+	margin-bottom: 15px;
+} 
+
+ul.event-list {
+    list-style-type: disc;
+	margin: 0 15px;
+} 
+
+   
+
+
+/* ==========================================================================
+   22. JOIN US
+   ========================================================================== */ 
+   
+#join-us {
+	background-image: url(../images/join-us.jpg);
+}
+
+/*------------------------------------------*/
+/*	 Join Us Typography
+/*------------------------------------------*/
+
+#join-us h2.h2-huge {
+	color: #fff;
+	margin-bottom: 10px;	
+}
+
+/*------------------------------------------*/
+/*	 JOIN US SOCIALS   
+/*------------------------------------------*/
+
+.join-us-icons {
+	display: inline-block; 
+	padding-left: 0;
+	margin: 0 auto;
+}
+
+.join-us-icons li {
+	width: auto !important;
+    display: inline-block !important;
+    vertical-align: top;
+    clear: none !important;
+	padding: 0;
+}
+
+a.dr-social {
+	color: #fff;
+	background-color: transparent;
+	width: 66px;
+	height: 66px;
+	font-size: 26px;
+    line-height: 62px !important;
+	border: 2px solid #fff;
+	text-align: center;
+	margin: 0 4px;
+    display: block;
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+}
+
+/*------------------------------------------*/
+/*	 Join Us Icons Hover 
+/*------------------------------------------*/
+
+a.dr-social.ico-facebook:hover { background-color: #3b5998; border-color: #3b5998; color: #fff; }
+a.dr-social.ico-twitter:hover { background-color: #00a9ed; border-color: #00a9ed; color: #fff; }
+a.dr-social.ico-behance:hover { background-color: #00a8e7; border-color: #00a8e7; color: #fff; }
+a.dr-social.ico-google-plus:hover { background-color: #cd1111; border-color: #cd1111; color: #fff; }
+a.dr-social.ico-linkedin:hover { background-color: #015886; border-color: #015886; color: #fff; }
+a.dr-social.ico-dribbble:hover { background-color: #d92d84; border-color: #d92d84; color: #fff; }
+a.dr-social.ico-instagram:hover { background-color: #beb3a8; border-color: #beb3a8; color: #fff; }
+a.dr-social.ico-pinterest:hover { background-color: #ac281a; border-color: #ac281a; color: #fff; }
+a.dr-social.ico-dropbox:hover { background-color: #008ad2; border-color: #008ad2; color: #fff; }
+a.dr-social.ico-skype:hover { background-color: #00a9ed; border-color: #00a9ed; color: #fff; }
+a.dr-social.ico-youtube:hover { background-color: #cd1b20; border-color: #cd1b20; color: #fff; }
+a.dr-social.ico-tumblr:hover { background-color: #3a5976; border-color: #3a5976; color: #fff; }
+a.dr-social.ico-vimeo:hover { background-color: #00adee; border-color: #00adee; color: #fff; }
+a.dr-social.ico-flickr:hover { background-color: #d2d2d2; border-color: #d2d2d2; color: #fff; }
+a.dr-social.ico-github:hover { background-color: #222; border-color: #222; color: #fff; }
+a.dr-social.ico-renren:hover { background-color: #364a83; border-color: #364a83; color: #fff; }
+a.dr-social.ico-vk:hover { background-color: #3b5998; border-color: #3b5998; color: #fff; }
+a.dr-social.ico-xing:hover { background-color: #015f5e; border-color: #015f5e; color: #fff; }
+a.dr-social.ico-weibo:hover { background-color: #be4443; border-color: #be4443; color: #fff; }
+a.dr-social.ico-rss:hover { background-color: #ff6600; border-color: #ff6600; color: #fff; }
+a.dr-social.ico-digg:hover { background-color: #222; border-color: #222; color: #fff; }
+a.dr-social.ico-deviantart:hover { background-color: #57675d; border-color: #57675d; color: #fff; }
+a.dr-social.ico-envelope:hover { background-color: #999; border-color: #999; color: #fff; }
+a.dr-socialico-delicious:hover { background-color: #0a0a0a; border-color: #0a0a0a; color: #fff; }   
+
+
+
+
+/* ===================================================================================
+   23. FOOTER
+   =================================================================================== */ 
+   
+/*------------------------------------------*/
+/*	 Useful Links 
+/*------------------------------------------*/
+
+.useful-links {
+	display: inline-block; 
+	margin: 0 auto;
+}
+
+.useful-links li {
+    display: inline-block !important;
+	padding: 0 5px;
+	margin-bottom: 0;
+	line-height: 14px!important;
+	border-right: 1px solid #888;
+}
+
+.useful-links li:last-child {
+	border-right: none;
+}
+
+.useful-links li a {
+	color: #888;
+	font-size: 14px;
+	line-height: 14px!important;	
+	padding-right: 5px;	
+}
+
+.useful-links li a:hover {
+	color: #fff;
+}
+
+/*------------------------------------------*/
+/*	 Footer CopyRight  
+/*------------------------------------------*/
+
+.footer-copyright p {
+	color: #888;
+	font-size: 14px;
+	line-height: 14px;	
+	margin-top: 20px;
+	margin-bottom: 0;
+}
+
+
+
+
+/* ===================================================================================
+   24. SCROLL TO TOP
+   =================================================================================== */ 
+
+#scrollUp {
+	display: none;
+	width: 50px;
+	height: 50px;
+	position: fixed;
+	bottom: 20px;
+	right: 20px;
+	background-image: url(../images/back-to-top.png);
+	background-repeat: no-repeat;
+	background-position: 50% 48%;
+	background-color: rgba(35, 35, 35, 0.5);
+	-webkit-border-radius: 100%;
+	-moz-border-radius: 100%;
+	-o-border-radius: 100%;
+	border-radius: 100%;
+	-webkit-transition: all 250ms linear;
+	-moz-transition: all 250ms linear;
+	transition: all 250ms linear;	
+}
+
+#scrollUp:hover {
+	background-color: #f45432;
+}
+
+nav a#pull {  
+    display: none;  
+} 
+
+
+
