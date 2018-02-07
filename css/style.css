@@ -2034,7 +2034,7 @@ div.pp_default .pp_description {
 /*------------------------------------------*/ 
  
 .s-logo {
-	background-color: rgba(230, 230, 230, 0.3);
+	background-color: #FFFFFF;
 	padding: 35px 15px;
 	-webkit-transition: all 350ms ease-in-out;
 	-moz-transition: all 350ms ease-in-out;
